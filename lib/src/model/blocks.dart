@@ -1,4 +1,5 @@
-part of tetris;
+import 'block.dart';
+export 'block.dart';
 
 class IBlock extends Block {
   IBlock(int width) {

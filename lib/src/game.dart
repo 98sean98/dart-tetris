@@ -1,4 +1,8 @@
-part of tetris;
+import 'dart:html';
+import 'dart:async';
+import 'dart:math';
+
+import 'model/blocks.dart';
 
 class Game {
   CanvasElement board;

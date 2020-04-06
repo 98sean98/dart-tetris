@@ -1,3 +1,3 @@
-import 'package:tetris/tetris.dart';
+import 'package:web_tetris/tetris.dart';
 
-void main() => Game().start();
+void main() => Tetris().start();

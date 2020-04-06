@@ -1,4 +1,5 @@
-part of tetris;
+import 'tile.dart';
+export 'tile.dart';
 
 class Block {
   List<Tile> tiles = List<Tile>(4);

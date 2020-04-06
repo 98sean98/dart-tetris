@@ -1,10 +1,7 @@
 library tetris;
 
-import 'dart:html';
-import 'dart:async';
-import 'dart:math';
+import 'src/game.dart';
 
-part 'src/model/tile.dart';
-part 'src/model/block.dart';
-part 'src/model/blocks.dart';
-part 'src/game.dart';
+class Tetris {
+  void start() => Game().start();
+}
